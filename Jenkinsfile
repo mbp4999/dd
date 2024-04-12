@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout your code repository
-                git 'github.com:mbp4999/aws-mbp.git'
+                git 'github.com:mbp4999/demo.git'
             }
         }
 
